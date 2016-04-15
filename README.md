@@ -13,10 +13,10 @@ The architecture match is important, as if you are using 32-bit Python on a 64-b
 2. Adjust settings in config.py to reflect your environment.
 3. Shutdown Openfire.  Restart Openfire, then shutdown again (recommended in conversion guides).
 4. Copy entire contents of Openfire embedded-db folder to folder containing this script.  This includes:
-..* openfire.script
-..* openfire.properties
-..* openfire.log
-..* and anything else.  If there is a .lck file, copy that too, but you may need to delete it if you get an error.
+* openfire.script
+* openfire.properties
+* openfire.log
+* and anything else.  If there is a .lck file, copy that too, but you may need to delete it if you get an error.
 5. Follow existing guides to setup Openfire with MySQL.  This will create the necessary tables in MySQL.
 ..* If migrating the application to a new server as well make sure to install any plugins you had previously as these sometimes create their own tables.
 6. Run main.py (remember - run it using the Python interpreter matching your system's architecture).
