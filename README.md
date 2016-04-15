@@ -1,9 +1,9 @@
 # OpenFire hsqlDB to MySQL
 
 ### Requirements
-JayDeBeAPI (Python library) - install via pip
-Java JRE (matching architecture of machine, ie 32-bit if OS is 32-bit, 64-bit if OS is 64-bit)
-Python 2.7 (matching architecture of machine; see above)
+..* JayDeBeAPI (Python library) - install via pip
+..* Java JRE (matching architecture of machine, ie 32-bit if OS is 32-bit, 64-bit if OS is 64-bit)
+..* Python 2.7 (matching architecture of machine; see above)
 
 The architecture match is important, as if you are using 32-bit Python on a 64-bit machine the program will likely crash.
 
