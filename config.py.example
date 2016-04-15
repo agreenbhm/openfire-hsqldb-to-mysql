@@ -1,0 +1,28 @@
+#Rename this file to config.py
+
+#Name of database/schema in source
+sourceDBname = 'PUBLIC'
+
+#Leave off the file extension of the source
+sourceDBFile = 'C:/Users/username/hsqldbToMySQL/openfire'
+
+#IP of MySQL host
+destDBHost = '192.168.0.1'
+
+#Port of MySQL host
+destDBPort = '3306'
+
+#Name of database/schema in destination
+destDBname = 'openfire'
+
+#Username for source. If unknown try 'sa'
+sourceUser = 'sa'
+
+#Password for source. If unknown try no password
+sourcePw = ''
+
+#Username for MySQL
+destUser = 'root'
+
+#Password for MySQL
+destPw = 'root'
